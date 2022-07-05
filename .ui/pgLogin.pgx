@@ -1,0 +1,431 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .loginPageContainer",
+			"id": "ff38-f3d9-9931-a803",
+			"initialized": true,
+			"props": {
+				"children": [
+					"2424-74fc-d908-d914",
+					"7f44-1f4a-61e2-176a",
+					"99da-740d-d45f-0f68",
+					"65f1-0591-db5a-fb9e",
+					"20b1-19a1-0647-6a61",
+					"844c-cbbe-62b6-a1b0",
+					"2b2c-b54b-288a-1355",
+					"a52c-f219-5bed-b599"
+				],
+				"name": "pgLogin",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.0-rc.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"hiddenComponent": false,
+			"id": "2424-74fc-d908-d914",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "ff38-f3d9-9931-a803"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": " .headerTEST",
+			"hiddenComponent": false,
+			"id": "7f44-1f4a-61e2-176a",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "ff38-f3d9-9931-a803",
+				"title": ""
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": ""
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgLogin-customHeader",
+			"hiddenComponent": false,
+			"id": "99da-740d-d45f-0f68",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"225c-c909-117a-1f70"
+				],
+				"name": "customHeader",
+				"parent": "ff38-f3d9-9931-a803"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .loginTitleContainer",
+			"id": "225c-c909-117a-1f70",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"26e6-497d-9f31-8cbb",
+					"2082-009b-21d5-2a70"
+				],
+				"name": "titleContainer",
+				"parent": "99da-740d-d45f-0f68"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .loginAppNameLbl",
+			"hiddenComponent": false,
+			"id": "26e6-497d-9f31-8cbb",
+			"oldName": "label3",
+			"props": {
+				"children": [],
+				"name": "appName",
+				"parent": "225c-c909-117a-1f70",
+				"text": "SMOKE COUNTER"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "SMOKE COUNTER"
+			}
+		},
+		{
+			"className": ".sf-label .loginTitleText",
+			"hiddenComponent": false,
+			"id": "2082-009b-21d5-2a70",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "titleText",
+				"parent": "225c-c909-117a-1f70",
+				"text": "Giriş için bilgilerinizi giriniz."
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Giriş için bilgilerinizi giriniz."
+			}
+		},
+		{
+			"className": ".sf-view .flexTest",
+			"hiddenComponent": true,
+			"id": "65f1-0591-db5a-fb9e",
+			"oldName": "view1",
+			"props": {
+				"children": [],
+				"name": "flexView",
+				"parent": "ff38-f3d9-9931-a803"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".loginFormContainer",
+			"id": "20b1-19a1-0647-6a61",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"e1f5-7633-b61b-e025"
+				],
+				"name": "loginFormContainer",
+				"parent": "ff38-f3d9-9931-a803"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".loginFormWrapper",
+			"id": "e1f5-7633-b61b-e025",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"a633-bdf8-5168-1f91",
+					"a52b-ec23-939d-6f17",
+					"6d60-fb63-ae2d-2590",
+					"1bdc-65bb-a92f-2bbf",
+					"2bbb-0d76-3b86-a534",
+					"3685-90a5-cecc-3358",
+					"c093-aaee-6b41-cf65",
+					"63ef-6a81-8e3f-85b9",
+					"7f5f-81e7-3ed4-50dd"
+				],
+				"name": "loginFormWrapper",
+				"parent": "20b1-19a1-0647-6a61"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".loginFormTitleLbl",
+			"hiddenComponent": false,
+			"id": "a633-bdf8-5168-1f91",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "e1f5-7633-b61b-e025",
+				"text": "ÜYE GİRİŞİ"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "ÜYE GİRİŞİ"
+			}
+		},
+		{
+			"className": " .flexTest1",
+			"hiddenComponent": true,
+			"id": "a52b-ec23-939d-6f17",
+			"props": {
+				"children": [],
+				"name": "view3",
+				"parent": "e1f5-7633-b61b-e025"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".inputTEXT",
+			"hiddenComponent": false,
+			"id": "6d60-fb63-ae2d-2590",
+			"props": {
+				"children": [],
+				"hint": "Kullanıcı Adınız",
+				"isPassword": false,
+				"name": "textBox1",
+				"parent": "e1f5-7633-b61b-e025",
+				"text": ""
+			},
+			"type": "TextBox",
+			"userProps": {
+				"hint": "Kullanıcı Adınız",
+				"isPassword": false,
+				"text": ""
+			}
+		},
+		{
+			"className": " .flexTest1",
+			"hiddenComponent": true,
+			"id": "1bdc-65bb-a92f-2bbf",
+			"props": {
+				"children": [],
+				"name": "view3_1",
+				"parent": "e1f5-7633-b61b-e025"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": " .inputTEXT",
+			"id": "2bbb-0d76-3b86-a534",
+			"props": {
+				"children": [],
+				"hint": "Şifreniz",
+				"name": "textBox2",
+				"parent": "e1f5-7633-b61b-e025"
+			},
+			"type": "TextBox",
+			"userProps": {
+				"hint": "Şifreniz"
+			}
+		},
+		{
+			"className": " .flexTest1",
+			"hiddenComponent": true,
+			"id": "3685-90a5-cecc-3358",
+			"props": {
+				"children": [],
+				"name": "view3_1_1",
+				"parent": "e1f5-7633-b61b-e025"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": " .switchContainer",
+			"id": "c093-aaee-6b41-cf65",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"a4f4-5e0b-7f37-15c8",
+					"fb00-3359-1cb0-5651"
+				],
+				"name": "rememberMeContainer",
+				"parent": "e1f5-7633-b61b-e025"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": " .switchContainer2",
+			"id": "a4f4-5e0b-7f37-15c8",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [
+					"4fd2-5b35-9f45-8b49",
+					"f318-ee1f-9db7-8a0e",
+					"80f4-8614-edfb-9bfb"
+				],
+				"name": "switchContainer",
+				"parent": "c093-aaee-6b41-cf65"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".switch",
+			"id": "4fd2-5b35-9f45-8b49",
+			"props": {
+				"children": [],
+				"name": "switch1",
+				"parent": "a4f4-5e0b-7f37-15c8",
+				"toggle": true
+			},
+			"type": "Switch",
+			"userProps": {
+				"toggle": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "f318-ee1f-9db7-8a0e",
+			"props": {
+				"children": [],
+				"name": "label4",
+				"parent": "a4f4-5e0b-7f37-15c8",
+				"text": "label4"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label4"
+			}
+		},
+		{
+			"className": " .rememberMeText",
+			"id": "80f4-8614-edfb-9bfb",
+			"props": {
+				"children": [],
+				"name": "label3",
+				"parent": "a4f4-5e0b-7f37-15c8",
+				"text": "Beni Hatırla"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Beni Hatırla"
+			}
+		},
+		{
+			"className": ".rememberMeText",
+			"id": "fb00-3359-1cb0-5651",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "c093-aaee-6b41-cf65",
+				"text": "Şifremi Unuttum"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Şifremi Unuttum"
+			}
+		},
+		{
+			"className": " .flexTest1",
+			"hiddenComponent": true,
+			"id": "63ef-6a81-8e3f-85b9",
+			"props": {
+				"children": [],
+				"name": "view3_1_1_1",
+				"parent": "e1f5-7633-b61b-e025"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": " .buttonLg",
+			"id": "7f5f-81e7-3ed4-50dd",
+			"props": {
+				"children": [],
+				"name": "button2",
+				"parent": "e1f5-7633-b61b-e025",
+				"text": "GİRİŞ YAP"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "GİRİŞ YAP"
+			}
+		},
+		{
+			"className": ".sf-view .flexTest5",
+			"hiddenComponent": true,
+			"id": "844c-cbbe-62b6-a1b0",
+			"props": {
+				"children": [],
+				"name": "view1",
+				"parent": "ff38-f3d9-9931-a803"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".newAccountContainer",
+			"id": "2b2c-b54b-288a-1355",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"8e30-270e-c754-81ed",
+					"e11d-6103-a46d-8993"
+				],
+				"name": "newAccountContainer",
+				"parent": "ff38-f3d9-9931-a803"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": " .notAnAccountText",
+			"id": "8e30-270e-c754-81ed",
+			"props": {
+				"children": [],
+				"name": "label5",
+				"parent": "2b2c-b54b-288a-1355",
+				"text": "Hesabınız yok mu ?"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Hesabınız yok mu ?"
+			}
+		},
+		{
+			"className": " .createAccountText",
+			"id": "e11d-6103-a46d-8993",
+			"props": {
+				"children": [],
+				"name": "label6",
+				"parent": "2b2c-b54b-288a-1355",
+				"text": "Hesap Aç"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Hesap Aç"
+			}
+		},
+		{
+			"className": ".sf-view .flexTest20",
+			"hiddenComponent": true,
+			"id": "a52c-f219-5bed-b599",
+			"props": {
+				"children": [],
+				"name": "view2",
+				"parent": "ff38-f3d9-9931-a803"
+			},
+			"type": "View",
+			"userProps": {}
+		}
+	]
+}

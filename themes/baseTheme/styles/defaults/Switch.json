@@ -1,0 +1,8 @@
+{
+  ".switch": {
+    "thumbOnColor": "rgba( 246, 246, 246, 1 )",
+    "thumbOffColor": "rgba( 246, 246, 246, 1 )",
+    "toggleOffColor": "rgba( 173, 181, 189, 1 )",
+    "toggleOnColor": "rgba( 27, 197, 189, 1 )"
+  }
+}

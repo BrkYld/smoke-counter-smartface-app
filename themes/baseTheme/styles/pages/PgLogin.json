@@ -1,0 +1,117 @@
+{
+  "#pgLogin": {
+    "&-flexLayout1": {
+      "width": 428.05,
+      "height": 101.22
+    },
+    "&-customHeader": {
+      "width": null,
+      "height": null,
+      "flexProps": {
+        "alignContent": "CENTER",
+        "flexDirection": "ROW",
+        "flexWrap": "NOWRAP",
+        "alignItems": "CENTER",
+        "flexGrow": 20,
+        "flexShrink": 20,
+        "positionType": "RELATIVE",
+        "alignSelf": "STRETCH",
+        "direction": "INHERIT",
+        "justifyContent": "CENTER"
+      },
+      "backgroundColor": "rgba( 231, 24, 88, 1 )"
+    },
+    "&-label1": {
+      "width": 351.69,
+      "height": 200,
+      "flexProps": {
+        "alignSelf": "CENTER",
+        "positionType": "RELATIVE",
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "backgroundColor": "rgba( 255, 0, 0, 1 )"
+    },
+    "&-label2": {
+      "backgroundColor": "rgba( 233, 22, 22, 1 )",
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      }
+    },
+    "&-appName": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "textAlignment": "MIDCENTER",
+      "backgroundColor": "rgba( 252, 18, 18, 1 )",
+      "width": 15,
+      "font": {
+        "name": "",
+        "family": "",
+        "style": "",
+        "size": 15
+      },
+      "height": 15
+    },
+    "&-appNameLabel": {
+      "left": 22.47,
+      "top": 111.24,
+      "width": 161.8,
+      "height": 24.72,
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      }
+    },
+    "&-title": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "left": 20.22,
+      "top": 38.2,
+      "width": 193.26,
+      "height": 68.54,
+      "backgroundColor": "rgba( 26, 58, 218, 0.99 )",
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "node": null,
+      "x": 116.85,
+      "y": 35.96,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 116.85,
+      "lastY": 35.96
+    },
+    "&-titleContainer": {
+      "width": 341.05,
+      "height": null
+    },
+    "&-view1": {
+      "width": 11.24,
+      "height": 39.33
+    },
+    "&-materialTextBox1": {
+      "width": 351.69,
+      "height": 68.54
+    },
+    "&-materialTextBox2": {
+      "width": 291.01,
+      "height": 114.61
+    },
+    "&-loginFormContainer": {
+      "width": 389.89,
+      "height": 267.42
+    },
+    "&-view2": {
+      "width": 11.24,
+      "height": 151.69
+    },
+    "&-textBox1": {
+      "width": 392.68,
+      "height": 117.07
+    }
+  }
+}

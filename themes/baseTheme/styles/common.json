@@ -95,5 +95,347 @@
     "flexProps": {
       "justifyContent": "CENTER"
     }
+  },
+  ".loginHeader": {
+    "backgroundColor": "rgba( 231, 24, 88, 1 )",
+    "style": "LIGHTCONTENT"
+  },
+  ".loginAppName": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1
+    },
+    "textColor": "rgba( 255, 255, 255, 1 )",
+    "backgroundColor": "rgba( 245, 9, 9, 1 )",
+    "width": null
+  },
+  ".loginTitleContainer": {
+    "flexProps": {
+      "flexGrow": 0.95,
+      "flexShrink": 0.9,
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE",
+      "alignItems": "STRETCH",
+      "justifyContent": "CENTER",
+      "alignContent": "STRETCH"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "width": 50,
+    "height": 135
+  },
+  ".loginPageContainer": {
+    "flexProps": {
+      "alignContent": "CENTER",
+      "alignItems": "CENTER",
+      "flexDirection": "COLUMN"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 1 )"
+  },
+  ".loginAppNameLbl": {
+    "textColor": "rgba( 255, 255, 255, 1 )",
+    "font": {
+      "name": "",
+      "family": "Default",
+      "style": "Regular",
+      "bold": false,
+      "italic": false,
+      "size": 25
+    },
+    "textAlignment": "MIDLEFT",
+    "ellipsizeMode": "NONE",
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1
+    }
+  },
+  ".loginTitleText": {
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "flexGrow": 1,
+      "flexShrink": 1
+    },
+    "textAlignment": "MIDLEFT",
+    "textColor": "rgba( 255, 255, 255, 1 )",
+    "font": {
+      "name": "",
+      "family": "Default",
+      "style": "Regular",
+      "size": 15,
+      "bold": false,
+      "italic": false
+    },
+    "ellipsizeMode": "NONE"
+  },
+  ".testText": {
+    "alpha": 1,
+    "font": {
+      "name": "",
+      "family": "SFProDisplay",
+      "style": "Medium",
+      "size": 15,
+      "bold": false,
+      "italic": false
+    },
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "positionType": "RELATIVE"
+    },
+    "ios": {
+      "shadowOpacity": 0,
+      "shadowColor": "rgba( 255, 255, 255, 1 )"
+    },
+    "textAlignment": "MIDCENTER",
+    "ellipsizeMode": "NONE",
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "height": null,
+    "width": null,
+    "textColor": "rgba( 224, 25, 25, 1 )",
+    "visible": true,
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "lineSpacing": 6,
+    "letterSpacing": 6
+  },
+  ".flexTest": {
+    "flexProps": {
+      "flexGrow": 5,
+      "flexShrink": 1
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".headerTEST": {
+    "backgroundColor": "rgba( 231, 24, 88, 1 )",
+    "borderVisibility": false
+  },
+  ".loginFormContainer": {
+    "flexProps": {
+      "flexGrow": 40,
+      "flexShrink": 40,
+      "flexDirection": "ROW",
+      "alignItems": "AUTO",
+      "positionType": "RELATIVE",
+      "justifyContent": "CENTER",
+      "direction": "INHERIT",
+      "flexWrap": "NOWRAP",
+      "alignContent": "STRETCH",
+      "alignSelf": "STRETCH"
+    },
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "borderWidth": null
+  },
+  ".newAccountContainer": {
+    "flexProps": {
+      "flexGrow": 12,
+      "flexShrink": 12,
+      "positionType": "RELATIVE",
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER",
+      "flexDirection": "ROW"
+    }
+  },
+  ".flexTest1": {
+    "flexProps": {
+      "flexGrow": 0.3,
+      "flexShrink": 0.3,
+      "alignSelf": "AUTO"
+    },
+    "height": 15,
+    "width": null,
+    "borderWidth": null,
+    "borderColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".flexTest20": {
+    "flexProps": {
+      "flexGrow": 20,
+      "flexShrink": 20
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".flexTest5": {
+    "flexProps": {
+      "flexGrow": 3,
+      "flexShrink": 3
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".loginFormWrapper": {
+    "flexProps": {
+      "flexGrow": 0.95,
+      "flexShrink": 1,
+      "flexWrap": "NOWRAP",
+      "direction": "INHERIT",
+      "positionType": "RELATIVE",
+      "flexDirection": "COLUMN",
+      "justifyContent": "CENTER",
+      "alignSelf": "STRETCH"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "height": null,
+    "borderWidth": 2,
+    "borderColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".loginFormTitleLbl": {
+    "flexProps": {
+      "flexGrow": 0.5,
+      "flexShrink": 1,
+      "positionType": "RELATIVE"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "textColor": "rgba( 10, 10, 10, 1 )",
+    "textAlignment": "MIDLEFT",
+    "font": {
+      "name": "",
+      "family": "Default",
+      "style": "Bold",
+      "bold": true,
+      "italic": false,
+      "size": 15
+    },
+    "ellipsizeMode": "NONE",
+    "height": 15,
+    "width": null,
+    "borderWidth": null,
+    "borderColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".loginFormTextInput": {
+    "flexProps": {
+      "flexGrow": 0,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH"
+    },
+    "backgroundColor": "rgba( 231, 211, 15, 1 )",
+    "height": null,
+    "keyboardType": "DEFAULT",
+    "borderColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".titleLaberContainer": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "AUTO",
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER",
+      "alignContent": "STRETCH"
+    }
+  },
+  ".labelContainer1": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "CENTER",
+      "alignItems": "STRETCH"
+    }
+  },
+  ".adas": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignItems": "STRETCH"
+    }
+  },
+  ".inputTEXT": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "positionType": "RELATIVE"
+    },
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "marginRight": 0,
+    "marginTop": 0,
+    "marginLeft": 0,
+    "marginBottom": 0,
+    "height": null,
+    "width": null,
+    "font": {
+      "name": "",
+      "family": "SFProDisplay",
+      "style": "Medium",
+      "size": 15,
+      "bold": false,
+      "italic": false
+    },
+    "textColor": "rgba( 173, 181, 189, 1 )",
+    "backgroundColor": "rgba( 246, 246, 246, 1 )",
+    "borderRadius": 6,
+    "borderWidth": 1
+  },
+  ".flexView212": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "AUTO"
+    },
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "height": null
+  },
+  ".switchContainer": {
+    "flexProps": {
+      "positionType": "RELATIVE",
+      "flexDirection": "ROW",
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "SPACE_BETWEEN",
+      "alignItems": "CENTER"
+    },
+    "thumbOnColor": "rgba( 246, 246, 246, 1 )",
+    "thumbOffColor": "rgba( 246, 246, 246, 1 )",
+    "toggleOffColor": "rgba( 173, 181, 189, 1 )",
+    "toggleOnColor": "rgba( 27, 197, 189, 1 )",
+    "borderColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".switchContainer2": {
+    "flexProps": {
+      "flexGrow": null,
+      "flexShrink": null,
+      "positionType": "RELATIVE",
+      "flexDirection": "ROW"
+    }
+  },
+  ".rememberMeText": {
+    "font": {
+      "name": "",
+      "family": "",
+      "style": "",
+      "size": 10
+    },
+    "textColor": "rgba( 173, 181, 189, 1 )"
+  },
+  ".buttonLg": {
+    "flexProps": {
+      "flexGrow": 1.4,
+      "flexShrink": 1.4,
+      "positionType": "RELATIVE"
+    },
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "textAlignment": "MIDCENTER",
+    "textColor": "rgba( 255, 255, 255, 1 )",
+    "backgroundColor": {
+      "normal": "rgba( 27, 197, 189, 1 )",
+      "pressed": "rgba( 27, 197, 189, 1 )"
+    },
+    "alpha": 1,
+    "borderRadius": 10
+  },
+  ".notAnAccountText": {
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "textColor": "rgba( 173, 181, 189, 1 )",
+    "font": {
+      "name": "",
+      "family": "",
+      "style": "",
+      "size": 14
+    }
+  },
+  ".createAccountText": {
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "textColor": "rgba( 27, 197, 189, 1 )",
+    "font": {
+      "name": "",
+      "family": "Default",
+      "style": "Bold",
+      "size": 14,
+      "bold": true,
+      "italic": false
+    }
   }
 }

@@ -1,10 +1,19 @@
 {
-  ".sf-statusBar": {
-    "masksToBounds": true,
-    "android": {
-      "color": "${mainColor}"
+    ".sf-statusBar": {
+        "masksToBounds": false,
+        "android": {
+            "color": "${mainColor}"
+        },
+        "ios": {
+            "color": "${mainColor}"
+        },
+        "style": "DEFAULT",
+        "visible": true
     },
-    "style": "LIGHTCONTENT",
-    "visible": true
-  }
+    ".sf": {
+        "&-statusBar": {
+            "style": "DEFAULT",
+            "visible": true
+        }
+    }
 }
