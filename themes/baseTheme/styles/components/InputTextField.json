@@ -1,0 +1,38 @@
+{
+  ".inputTextField": {
+    "height": null,
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "AUTO"
+    },
+    "&-imageView1": {
+      "width": 167,
+      "height": 134
+    },
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "borderRadius": 10,
+    "borderWidth": 0,
+    "&-imageView2": {
+      "left": 289,
+      "top": 0,
+      "width": 45,
+      "height": 55,
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "positionType": "RELATIVE"
+      }
+    },
+    "backgroundColor": "rgba( 246, 246, 246, 1 )",
+    "font": {
+      "name": "",
+      "family": "SFProDisplay",
+      "style": "Medium",
+      "bold": false,
+      "italic": false,
+      "size": 15
+    },
+    "textColor": "rgba( 173, 181, 189, 1 )"
+  }
+}

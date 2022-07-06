@@ -1,4 +1,4 @@
 import 'theme';
 import router from 'routes';
 
-router.push('/pages/login');
+router.push('/pages/register');

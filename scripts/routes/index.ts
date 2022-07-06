@@ -1,7 +1,7 @@
 import { NativeRouter, NativeStackRouter, Route } from '@smartface/router';
 import Application from '@smartface/native/application';
 
-import { LoginPage } from '../pages/index'
+import { LoginPage, RegisterPage } from '../pages/index'
 import System from '@smartface/native/device/system';
 
 Application.on('backButtonPressed', () => {
@@ -19,6 +19,12 @@ const router = NativeRouter.of({
                     path: '/pages/login',
                     build(router, route) {
                         return new LoginPage(router, route);
+                    }
+                }),
+                Route.of<RegisterPage>({
+                    path: '/pages/register',
+                    build(router, route) {
+                        return new RegisterPage(router, route);
                     }
                 }),
             ]

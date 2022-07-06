@@ -1,0 +1,271 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "78d7-f1cd-02c0-8c23",
+			"initialized": true,
+			"props": {
+				"children": [
+					"f067-0811-6dfa-3abd",
+					"5fcf-17e6-bb98-7c98",
+					"9f83-d555-d1a6-3f71",
+					"1bd9-0777-ec5a-d60a"
+				],
+				"name": "pgRegister",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": false
+			},
+			"type": "Page",
+			"userProps": {
+				"orientation": "PORTRAIT",
+				"safeAreaEnabled": false
+			},
+			"version": "0.10.0-rc.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "f067-0811-6dfa-3abd",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "78d7-f1cd-02c0-8c23"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar .headerTEST",
+			"id": "5fcf-17e6-bb98-7c98",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "78d7-f1cd-02c0-8c23"
+			},
+			"type": "HeaderBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgLogin-customHeader",
+			"hiddenComponent": false,
+			"id": "9f83-d555-d1a6-3f71",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0aee-ad9b-e9a0-920e"
+				],
+				"name": "customHeader",
+				"parent": "78d7-f1cd-02c0-8c23"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .loginTitleContainer",
+			"id": "0aee-ad9b-e9a0-920e",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"8750-6d79-f49c-0e9e",
+					"879e-a7be-3760-516b"
+				],
+				"name": "titleContainer",
+				"parent": "9f83-d555-d1a6-3f71"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .loginAppNameLbl",
+			"hiddenComponent": false,
+			"id": "8750-6d79-f49c-0e9e",
+			"oldName": "label3",
+			"props": {
+				"children": [],
+				"name": "appName",
+				"parent": "0aee-ad9b-e9a0-920e",
+				"text": "SMOKE COUNTER"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "SMOKE COUNTER"
+			}
+		},
+		{
+			"className": ".sf-label .loginTitleText",
+			"hiddenComponent": false,
+			"id": "879e-a7be-3760-516b",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"maxLines": 2,
+				"name": "titleText",
+				"parent": "0aee-ad9b-e9a0-920e",
+				"text": "Kayıt olmak için bilgilerinizi giriniz"
+			},
+			"type": "Label",
+			"userProps": {
+				"maxLines": 2,
+				"text": "Kayıt olmak için bilgilerinizi giriniz"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .registerFormContainer",
+			"id": "1bd9-0777-ec5a-d60a",
+			"props": {
+				"children": [
+					"c2ec-2e54-0c61-6c0b"
+				],
+				"name": "flexLayout1",
+				"parent": "78d7-f1cd-02c0-8c23"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .registerFormWrapper",
+			"id": "c2ec-2e54-0c61-6c0b",
+			"props": {
+				"children": [
+					"67fb-aa12-64b5-f7b9",
+					"bce6-8b67-aa90-fdcd",
+					"f09d-0742-2b2e-b1d5",
+					"0f13-576a-11ed-7075"
+				],
+				"name": "flexLayout3",
+				"parent": "1bd9-0777-ec5a-d60a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".loginFormTitleLbl .heightLabel",
+			"hiddenComponent": false,
+			"id": "67fb-aa12-64b5-f7b9",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "c2ec-2e54-0c61-6c0b",
+				"text": "YENİ KAYIT"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "YENİ KAYIT"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .inputTextFieldContainer",
+			"hiddenComponent": false,
+			"id": "bce6-8b67-aa90-fdcd",
+			"props": {
+				"children": [],
+				"name": "inputTextField",
+				"parent": "c2ec-2e54-0c61-6c0b"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "inputTextField",
+				"id": "73dc-434e-fb71-f6e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .inputTextFieldContainer",
+			"hiddenComponent": false,
+			"id": "f09d-0742-2b2e-b1d5",
+			"props": {
+				"children": [],
+				"name": "inputTextField1",
+				"parent": "c2ec-2e54-0c61-6c0b"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "inputTextField",
+				"id": "73dc-434e-fb71-f6e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flex-direction-row .padding-vertical",
+			"id": "0f13-576a-11ed-7075",
+			"props": {
+				"children": [
+					"4114-71db-0243-19e9",
+					"0db0-ab58-8483-ef90"
+				],
+				"name": "flexLayout4",
+				"parent": "c2ec-2e54-0c61-6c0b"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .touchableOpacityContainer",
+			"hiddenComponent": false,
+			"id": "4114-71db-0243-19e9",
+			"oldName": "touchableOpacity1",
+			"props": {
+				"children": [],
+				"name": "backButton",
+				"parent": "0f13-576a-11ed-7075"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "touchableOpacity",
+				"id": "a07d-5259-f149-74f5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout .touchableOpacityContainer",
+			"hiddenComponent": false,
+			"id": "0db0-ab58-8483-ef90",
+			"oldName": "touchableOpacity",
+			"props": {
+				"children": [],
+				"name": "confirmButton",
+				"parent": "0f13-576a-11ed-7075"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "touchableOpacity",
+				"id": "a07d-5259-f149-74f5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

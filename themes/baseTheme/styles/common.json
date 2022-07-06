@@ -22,7 +22,16 @@
   ".padding": {
     "&-vertical": {
       "paddingBottom": 15,
-      "paddingTop": 15
+      "paddingTop": 15,
+      "visible": true,
+      "flexProps": {
+        "justifyContent": "CENTER",
+        "alignItems": "CENTER",
+        "flexGrow": null,
+        "flexShrink": null,
+        "alignContent": "STRETCH"
+      },
+      "height": 75
     },
     "&-horizontal": {
       "paddingLeft": 15,
@@ -436,6 +445,150 @@
       "size": 14,
       "bold": true,
       "italic": false
+    }
+  },
+  ".touchableOpacityContainer": {
+    "height": 50,
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "borderRadius": 10,
+    "flexProps": {
+      "flexDirection": "ROW",
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER",
+      "alignSelf": "STRETCH",
+      "flexGrow": 1,
+      "flexShrink": 1
+    },
+    "paddingRight": 10,
+    "paddingLeft": 10
+  },
+  ".touchableOpacityButton": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "AUTO"
+    },
+    "backgroundColor": {}
+  },
+  ".flex": {
+    "&-direction": {
+      "&-row": {
+        "flexProps": {
+          "flexDirection": "ROW",
+          "flexGrow": 1,
+          "flexShrink": 1
+        },
+        "height": null
+      }
+    }
+  },
+  ".inputTextFieldContainer": {
+    "height": 50,
+    "flexProps": {
+      "flexDirection": "ROW",
+      "flexGrow": null,
+      "flexShrink": null
+    },
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "backgroundColor": "rgba( 246, 246, 246, 1 )",
+    "borderRadius": 10,
+    "paddingLeft": 10,
+    "paddingRight": 10,
+    "marginLeft": 10,
+    "marginRight": 10,
+    "marginTop": 10,
+    "marginBottom": 10
+  },
+  ".inputTextFieldIcon": {
+    "height": null,
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "positionType": "RELATIVE",
+      "alignSelf": "AUTO"
+    },
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": 0,
+    "image": "images://eye.png",
+    "imageFillType": "STRETCH",
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "borderColor": "rgba( 240, 10, 10, 1 )",
+    "borderWidth": 1
+  },
+  ".source": {
+    "image": "images://eye.png",
+    "imageFillType": "STRETCH"
+  },
+  ".registerFormContainer": {
+    "height": 0,
+    "flexProps": {
+      "flexGrow": 80,
+      "flexShrink": 80,
+      "flexDirection": "ROW",
+      "alignItems": "STRETCH",
+      "justifyContent": "CENTER",
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    },
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "borderWidth": 1,
+    "borderRadius": 1,
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "visible": true
+  },
+  ".registerForm": {
+    "height": 0,
+    "flexProps": {
+      "flexGrow": 1
+    }
+  },
+  ".registerFormWrapper": {
+    "height": 0,
+    "flexProps": {
+      "flexShrink": 0.9,
+      "flexGrow": 0.9,
+      "flexWrap": "NOWRAP",
+      "justifyContent": "FLEX_START",
+      "alignContent": "STRETCH",
+      "alignSelf": "STRETCH",
+      "alignItems": "STRETCH",
+      "direction": "INHERIT"
+    }
+  },
+  ".testttt": {
+    "height": 25,
+    "flexProps": {
+      "flexGrow": null
+    }
+  },
+  ".heightLabel": {
+    "height": 50,
+    "flexProps": {
+      "flexGrow": null,
+      "flexShrink": null,
+      "positionType": "RELATIVE"
+    },
+    "marginTop": 15,
+    "marginLeft": 10
+  },
+  ".custommm": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1
+    }
+  },
+  ".teeestlayout": {
+    "flexProps": {
+      "flexGrow": 80,
+      "flexShrink": 80
+    }
+  },
+  ".cornFlex": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1
     }
   }
 }

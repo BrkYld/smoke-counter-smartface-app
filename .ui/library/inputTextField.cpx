@@ -1,0 +1,43 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .inputTextFieldContainer",
+			"id": "73dc-434e-fb71-f6e5",
+			"props": {
+				"children": [
+					"2b74-4df3-eb3e-a3b0"
+				],
+				"name": "inputTextField",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 9.64,
+				"top": 501.2
+			}
+		},
+		{
+			"className": ".sf-textBox .inputTextField",
+			"id": "2b74-4df3-eb3e-a3b0",
+			"props": {
+				"children": [],
+				"hint": "TextField",
+				"name": "textBox1",
+				"parent": "73dc-434e-fb71-f6e5"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TextBox",
+			"userProps": {
+				"hint": "TextField"
+			}
+		}
+	]
+}

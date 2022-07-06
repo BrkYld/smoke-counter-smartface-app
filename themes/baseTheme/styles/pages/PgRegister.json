@@ -1,0 +1,56 @@
+{
+  "#pgRegister": {
+    "&-touchableOpacity": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-touchableOpacity1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-inputTextField": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-inputTextField1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-inputTextField2": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-flexLayout3": {
+      "width": 384.15,
+      "height": 469.51
+    },
+    "&-label1": {
+      "width": 374.39,
+      "height": 53.66
+    },
+    "&-flexLayout1": {
+      "width": 428.05,
+      "height": 660.98
+    }
+  }
+}
