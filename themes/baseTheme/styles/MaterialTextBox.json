@@ -18,7 +18,8 @@
     "labelsFont": {
       "size": 14,
       "family": "Default"
-    }
+    },
+    "height": 50
   },
   ".materialTextBox-rightLayout": {
     "paddingBottom": 4,

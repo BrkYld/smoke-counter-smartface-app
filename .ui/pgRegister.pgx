@@ -159,9 +159,10 @@
 			"className": ".sf-flexLayout .inputTextFieldContainer",
 			"hiddenComponent": false,
 			"id": "bce6-8b67-aa90-fdcd",
+			"oldName": "inputTextField",
 			"props": {
 				"children": [],
-				"name": "inputTextField",
+				"name": "userNameText",
 				"parent": "c2ec-2e54-0c61-6c0b"
 			},
 			"source": {
@@ -183,9 +184,10 @@
 			"className": ".sf-flexLayout .inputTextFieldContainer",
 			"hiddenComponent": false,
 			"id": "f09d-0742-2b2e-b1d5",
+			"oldName": "inputTextField1",
 			"props": {
 				"children": [],
-				"name": "inputTextField1",
+				"name": "passwordText",
 				"parent": "c2ec-2e54-0c61-6c0b"
 			},
 			"source": {

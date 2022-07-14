@@ -5,7 +5,8 @@
 			"id": "73dc-434e-fb71-f6e5",
 			"props": {
 				"children": [
-					"2b74-4df3-eb3e-a3b0"
+					"2b74-4df3-eb3e-a3b0",
+					"982a-b57a-147f-e81c"
 				],
 				"name": "inputTextField",
 				"parent": "57f4-201f-4bfc-5fc6"
@@ -37,6 +38,24 @@
 			"type": "TextBox",
 			"userProps": {
 				"hint": "TextField"
+			}
+		},
+		{
+			"className": ".sf-imageView .testICON",
+			"id": "982a-b57a-147f-e81c",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "73dc-434e-fb71-f6e5",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"image": "eye.png",
+				"usePageVariable": true
 			}
 		}
 	]

@@ -1,0 +1,72 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .historyPage",
+			"id": "c9c6-bbd3-5e8b-ccdb",
+			"initialized": true,
+			"props": {
+				"children": [
+					"952a-9d63-34ed-ef34",
+					"61ec-cdce-60ec-4040",
+					"2be9-155b-f97a-ce55"
+				],
+				"name": "pgHistory",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"orientation": "PORTRAIT"
+			},
+			"version": "0.10.0-rc.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "952a-9d63-34ed-ef34",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "c9c6-bbd3-5e8b-ccdb"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "61ec-cdce-60ec-4040",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "c9c6-bbd3-5e8b-ccdb",
+				"title": "Raporlar"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Raporlar"
+			}
+		},
+		{
+			"className": ".sf-gridView .customGrid",
+			"id": "2be9-155b-f97a-ce55",
+			"oldName": "gridView1",
+			"props": {
+				"children": [],
+				"itemCount": 4,
+				"layoutManager": {
+					"spanCount": 1
+				},
+				"name": "reportList",
+				"parent": "c9c6-bbd3-5e8b-ccdb"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 4,
+				"layoutManager": {
+					"spanCount": 1
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,102 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "7754-3a4b-9d47-a362",
+			"initialized": true,
+			"props": {
+				"children": [
+					"4379-7db1-7e0f-4b42",
+					"a68f-b6ca-4789-c420",
+					"780a-b289-c304-8069"
+				],
+				"name": "pgHome",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.0-rc.2"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "4379-7db1-7e0f-4b42",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "7754-3a4b-9d47-a362"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "a68f-b6ca-4789-c420",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "7754-3a4b-9d47-a362",
+				"title": "Ana Sayfa"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Ana Sayfa"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .smokeButtonContainer",
+			"id": "780a-b289-c304-8069",
+			"props": {
+				"children": [
+					"e1a3-7c70-3798-fa7a"
+				],
+				"name": "flexLayout1",
+				"parent": "7754-3a4b-9d47-a362"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .smokeButtonWrapper",
+			"id": "e1a3-7c70-3798-fa7a",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [
+					"bef5-f398-d379-9c5b",
+					"8096-64b7-2266-6bb3"
+				],
+				"name": "buttonWrapper",
+				"parent": "780a-b289-c304-8069"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .smokeCountText",
+			"id": "bef5-f398-d379-9c5b",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "e1a3-7c70-3798-fa7a"
+			},
+			"type": "Label",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .letSmokeText",
+			"id": "8096-64b7-2266-6bb3",
+			"props": {
+				"children": [],
+				"name": "label3",
+				"parent": "e1a3-7c70-3798-fa7a",
+				"text": "label3"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label3"
+			}
+		}
+	]
+}

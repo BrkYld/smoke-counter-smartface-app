@@ -112,6 +112,40 @@
     "&-textBox1": {
       "width": 392.68,
       "height": 117.07
+    },
+    "&-flexLayout2": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      },
+      "width": 254.88,
+      "height": 50
+    },
+    "&-inputTextField": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-inputTextField1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-loader": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
     }
   }
 }

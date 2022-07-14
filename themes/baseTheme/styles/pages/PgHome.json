@@ -1,0 +1,19 @@
+{
+  "#pgHome": {
+    "&-button1": {
+      "width": 333.71,
+      "height": 415.73,
+      "borderRadius": 200,
+      "left": 4.49,
+      "top": 4.49
+    },
+    "&-buttonWrapper": {
+      "width": 313.4,
+      "height": 384.54
+    },
+    "&-label1": {
+      "width": 80.41,
+      "height": 193.81
+    }
+  }
+}

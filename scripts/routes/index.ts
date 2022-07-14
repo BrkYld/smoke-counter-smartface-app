@@ -1,6 +1,6 @@
 import { NativeRouter, NativeStackRouter, Route } from '@smartface/router';
 import Application from '@smartface/native/application';
-
+import TabNavigator from './tabbar';
 import { LoginPage, RegisterPage } from '../pages/index'
 import System from '@smartface/native/device/system';
 
@@ -13,22 +13,24 @@ const router = NativeRouter.of({
     isRoot: true,
     routes: [
         NativeStackRouter.of({
-            path: '/pages',
+            path: '/auth',
+            to:'/auth/login',
             routes: [
                 Route.of<LoginPage>({
-                    path: '/pages/login',
+                    path: '/auth/login',
                     build(router, route) {
                         return new LoginPage(router, route);
                     }
                 }),
                 Route.of<RegisterPage>({
-                    path: '/pages/register',
+                    path: '/auth/register',
                     build(router, route) {
                         return new RegisterPage(router, route);
                     }
                 }),
             ]
-        })
+        }),
+        TabNavigator,
     ]
 });
 

@@ -7,8 +7,8 @@
       "alignSelf": "AUTO"
     },
     "&-imageView1": {
-      "width": 167,
-      "height": 134
+      "width": 58.54,
+      "height": 50
     },
     "borderColor": "rgba( 255, 255, 255, 0 )",
     "borderRadius": 10,
@@ -33,6 +33,7 @@
       "italic": false,
       "size": 15
     },
-    "textColor": "rgba( 173, 181, 189, 1 )"
+    "textColor": "rgba( 173, 181, 189, 1 )",
+    "keyboardType": "DEFAULT"
   }
 }

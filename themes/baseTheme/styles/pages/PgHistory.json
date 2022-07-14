@@ -1,0 +1,25 @@
+{
+  "#pgHistory": {
+    "&-reportListWrapper": {
+      "width": 341.57,
+      "height": 756.18
+    },
+    "&-reportListItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-customList": {
+      "autoSizeEnabled": true,
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    }
+  }
+}

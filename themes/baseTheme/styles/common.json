@@ -214,7 +214,9 @@
   },
   ".headerTEST": {
     "backgroundColor": "rgba( 231, 24, 88, 1 )",
-    "borderVisibility": false
+    "borderVisibility": false,
+    "backgroundImage": "",
+    "visible": true
   },
   ".loginFormContainer": {
     "flexProps": {
@@ -545,7 +547,7 @@
     }
   },
   ".registerFormWrapper": {
-    "height": 0,
+    "height": null,
     "flexProps": {
       "flexShrink": 0.9,
       "flexGrow": 0.9,
@@ -590,5 +592,230 @@
       "flexGrow": 1,
       "flexShrink": 1
     }
+  },
+  ".materialTextBoxTEST": {
+    "height": 50
+  },
+  ".mtTextBoxInput": {
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "textAlignment": "MIDLEFT",
+    "borderWidth": 0
+  },
+  ".testICON": {
+    "flexProps": {
+      "flexGrow": 0.1,
+      "flexShrink": 1,
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    },
+    "height": 50,
+    "width": null,
+    "image": "images/eye.png",
+    "imageFillType": "NORMAL",
+    "minWidth": null,
+    "maxWidth": null
+  },
+  ".testtttttttttt": {
+    "image": "images/eye.png"
+  },
+  ".loaderContainer": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "positionType": "ABSOLUTE",
+      "alignSelf": "STRETCH"
+    },
+    "backgroundColor": "rgba( 245, 10, 10, 1 )"
+  },
+  ".smokeButtonContainer": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "height": null,
+    "borderRadius": null
+  },
+  ".smokeButton": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH",
+      "positionType": "ABSOLUTE"
+    },
+    "width": null,
+    "height": null,
+    "borderRadius": 200,
+    "backgroundColor": {
+      "normal": "rgba( 255, 255, 255, 0 )",
+      "pressed": "rgba( 255, 255, 255, 0 )"
+    }
+  },
+  ".smokeButtonWrapper": {
+    "height": null,
+    "flexProps": {
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER"
+    },
+    "paddingTop": 10,
+    "paddingLeft": 10,
+    "paddingRight": 10,
+    "paddingBottom": 10,
+    "borderRadius": 200,
+    "borderColor": "rgba( 246, 246, 247, 1 )",
+    "backgroundColor": "rgba( 247, 249, 253, 1 )",
+    "borderWidth": 1
+  },
+  ".smokeCountText": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1
+    },
+    "textColor": "rgba( 143, 155, 179, 1 )",
+    "textAlignment": "MIDCENTER",
+    "font": {
+      "name": "",
+      "family": "",
+      "style": "",
+      "size": 50
+    }
+  },
+  ".letSmokeText": {
+    "flexProps": {
+      "flexGrow": 0.5,
+      "flexShrink": 0.5
+    },
+    "textColor": "rgba( 231, 24, 88, 1 )",
+    "textAlignment": "MIDCENTER",
+    "ellipsizeMode": "NONE",
+    "font": {
+      "name": "",
+      "family": "SFProText",
+      "style": "Semibold",
+      "bold": true,
+      "italic": false
+    }
+  },
+  ".reportList": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH"
+    },
+    "height": null,
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".reportListWrapper": {
+    "height": null,
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "CENTER"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".reportListItem": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "AUTO",
+      "flexDirection": "COLUMN",
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER"
+    },
+    "&-itemWrapper": {
+      "width": 374.39,
+      "height": 187.8
+    },
+    "paddingBottom": 10,
+    "paddingTop": 0,
+    "width": null,
+    "height": null,
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "&-label4": {
+      "width": 374.39,
+      "height": 114.63
+    },
+    "&-flexLayout2": {
+      "width": null,
+      "height": null,
+      "flexProps": {
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "CENTER",
+        "alignItems": "CENTER"
+      }
+    },
+    "&-flexLayout1": {
+      "width": 379.27,
+      "height": 214.63
+    }
+  },
+  ".historyPage": {
+    "paddingTop": 10
+  },
+  ".itemWrapper": {
+    "height": null,
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "flexDirection": "COLUMN",
+      "alignItems": "STRETCH"
+    },
+    "backgroundColor": "rgba( 14, 67, 241, 1 )"
+  },
+  ".customGrid": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "AUTO"
+    },
+    "height": null,
+    "width": null,
+    "marginTop": 10,
+    "marginBottom": 10
+  },
+  ".customItem": {
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "backgroundColor": "rgba( 221, 20, 20, 1 )"
+  },
+  ".reportListItemContainer": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH",
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "height": null
+  },
+  ".customLabel": {
+    "font": {
+      "name": "",
+      "family": "SFProText",
+      "style": "Semibold",
+      "bold": true,
+      "italic": false,
+      "size": 17
+    },
+    "ellipsizeMode": "NONE"
+  },
+  ".testHeader": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "flexDirection": "ROW",
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER",
+      "alignContent": "STRETCH",
+      "alignSelf": "STRETCH"
+    },
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "borderWidth": null,
+    "height": null
   }
 }
