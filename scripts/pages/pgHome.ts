@@ -10,6 +10,7 @@ import LocationService from 'components/LocationService';
 import { Data } from '@smartface/native/global';
 import store from 'store';
 import storeActions from 'store/main/actions';
+import Application from '@smartface/native/application';
 
 export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
     Loader: Loader;
@@ -32,7 +33,7 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
   
     logout(){
         Data.removeVariable('user');
-        this.router.replace('/auth/login', {})
+        Application.restart();
     }
     getDailyReport() {
         this.Loader.show();
