@@ -11,10 +11,14 @@ export default function (state = initialState, action: ActionTypes): State {
     switch (action.type) {
         case Constants.SET_DAILY_REPORT: {
             newState = { ...newState, dailyReport: action.payload };
+            if(newState.smokingReport.length > 0){
+                newState.smokingReport.shift();
+                newState.smokingReport.unshift(action.payload);
+            }
             break;
         }
         case Constants.SET_SMOKING_REPORT: {
-            newState = { ...newState, smokingReport: action.payload };
+            newState = { ...newState, smokingReport: action.payload.reverse() };
             break;
         }
         default: {

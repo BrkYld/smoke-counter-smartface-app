@@ -1,6 +1,6 @@
-import CustomListDesign from 'generated/my-components/CustomList';
+import TimeListItemDesign from 'generated/my-components/TimeListItem';
 
-export default class CustomList extends CustomListDesign {
+export default class TimeListItem extends TimeListItemDesign {
   pageName?: string | undefined;
   constructor(props?: any, pageName?: string) {
     // Initalizes super class for this scope

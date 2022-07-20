@@ -1,14 +1,14 @@
 {
 	"components": [
 		{
-			"className": ".sf-page .historyPage",
+			"className": ".sf-page",
 			"id": "c9c6-bbd3-5e8b-ccdb",
 			"initialized": true,
 			"props": {
 				"children": [
 					"952a-9d63-34ed-ef34",
 					"61ec-cdce-60ec-4040",
-					"2be9-155b-f97a-ce55"
+					"ae5d-4ccb-eded-3ae0"
 				],
 				"name": "pgHistory",
 				"orientation": "PORTRAIT",
@@ -40,31 +40,55 @@
 				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "c9c6-bbd3-5e8b-ccdb",
-				"title": "Raporlar"
+				"title": "Geçmiş"
 			},
 			"type": "HeaderBar",
 			"userProps": {
-				"title": "Raporlar"
+				"title": "Geçmiş"
 			}
 		},
 		{
-			"className": ".sf-gridView .customGrid",
-			"id": "2be9-155b-f97a-ce55",
-			"oldName": "gridView1",
+			"className": ".sf-listView .reportList",
+			"id": "ae5d-4ccb-eded-3ae0",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"2127-8a9f-fddf-bc2a"
+				],
+				"itemCount": 1,
+				"name": "reportList",
+				"parent": "c9c6-bbd3-5e8b-ccdb",
+				"refreshEnabled": false,
+				"rowHeight": 150
+			},
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 1,
+				"refreshEnabled": false,
+				"rowHeight": 150
+			}
+		},
+		{
+			"className": ".sf-listViewItem .reportListItem",
+			"hiddenComponent": false,
+			"id": "2127-8a9f-fddf-bc2a",
 			"props": {
 				"children": [],
-				"itemCount": 4,
-				"layoutManager": {
-					"spanCount": 1
-				},
-				"name": "reportList",
-				"parent": "c9c6-bbd3-5e8b-ccdb"
+				"name": "reportListItem",
+				"parent": "ae5d-4ccb-eded-3ae0"
 			},
-			"type": "GridView",
+			"source": {
+				"page": "__library__",
+				"type": "reportListItem",
+				"id": "1da6-e942-46e6-cd02"
+			},
+			"type": "ListViewItem",
 			"userProps": {
-				"itemCount": 4,
-				"layoutManager": {
-					"spanCount": 1
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
 				}
 			}
 		}

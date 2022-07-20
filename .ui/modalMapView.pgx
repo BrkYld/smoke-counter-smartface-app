@@ -1,0 +1,60 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .mapViewModal",
+			"id": "4873-8d4c-6af7-07ad",
+			"initialized": true,
+			"props": {
+				"children": [
+					"bb25-66b4-0150-9a7b",
+					"16e7-b5fc-88ee-d557",
+					"2441-5f43-a99f-ca2b"
+				],
+				"name": "modalMapView",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.0-rc.3"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "bb25-66b4-0150-9a7b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "4873-8d4c-6af7-07ad"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "16e7-b5fc-88ee-d557",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "4873-8d4c-6af7-07ad",
+				"title": "Harita"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Harita"
+			}
+		},
+		{
+			"className": ".sf-mapView .mapView",
+			"id": "2441-5f43-a99f-ca2b",
+			"props": {
+				"children": [],
+				"name": "mapView1",
+				"parent": "4873-8d4c-6af7-07ad"
+			},
+			"type": "MapView",
+			"userProps": {}
+		}
+	]
+}

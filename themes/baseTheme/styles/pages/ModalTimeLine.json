@@ -1,0 +1,12 @@
+{
+  "#modalTimeLine": {
+    "&-timeListItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    }
+  }
+}

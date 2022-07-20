@@ -20,6 +20,14 @@
       "flex": {
         "positionType": 0
       }
+    },
+    "&-separator": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
     }
   }
 }

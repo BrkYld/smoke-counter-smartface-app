@@ -60,6 +60,7 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
             userStyle: {
                 width: Screen.width / 1.1,
                 height: Screen.width / 1.1,
+                borderRadius: (Screen.width/1.1) / 2,
                 masksToBounds: true,
             },
         });
@@ -118,6 +119,7 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
             const { dailyReport } = store.getState().main;
             this.label2.text = dailyReport.count.toString();
             this.headerBar.title = dailyReport.count > 0 ? dailyReport.day : this.headerBar.title;
+            this.layout.applyLayout();
         })
         // this.headerBar.setLeftItem(new HeaderBarItem({
         //     title: 'Done',

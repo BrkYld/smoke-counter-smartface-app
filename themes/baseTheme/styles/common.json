@@ -704,7 +704,11 @@
       "alignSelf": "STRETCH"
     },
     "height": null,
-    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "marginLeft": 10,
+    "marginRight": 10,
+    "marginTop": 5,
+    "marginBottom": 5
   },
   ".reportListWrapper": {
     "height": null,
@@ -717,8 +721,8 @@
   },
   ".reportListItem": {
     "flexProps": {
-      "flexGrow": 1,
-      "flexShrink": 1,
+      "flexGrow": null,
+      "flexShrink": null,
       "alignSelf": "AUTO",
       "flexDirection": "COLUMN",
       "justifyContent": "CENTER",
@@ -728,10 +732,8 @@
       "width": 374.39,
       "height": 187.8
     },
-    "paddingBottom": 10,
-    "paddingTop": 0,
-    "width": null,
-    "height": null,
+    "width": 375.28,
+    "height": 153.93,
     "backgroundColor": "rgba( 255, 255, 255, 0 )",
     "&-label4": {
       "width": 374.39,
@@ -750,6 +752,24 @@
     "&-flexLayout1": {
       "width": 379.27,
       "height": 214.63
+    },
+    "borderRadius": null,
+    "shadowColor": "rgba( 255, 255, 255, 1 )",
+    "ios": {
+      "shadowOpacity": 0
+    },
+    "android": {
+      "elevation": 1
+    },
+    "borderWidth": null,
+    "borderColor": "rgba( 255, 255, 255, 0 )",
+    "&-imageView2": {
+      "width": 188.76,
+      "height": 342.7
+    },
+    "&-imageView1": {
+      "width": 202.25,
+      "height": 342.7
     }
   },
   ".historyPage": {
@@ -817,5 +837,216 @@
     "borderColor": "rgba( 255, 255, 255, 0 )",
     "borderWidth": null,
     "height": null
+  },
+  ".reportListItemHeader": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH",
+      "justifyContent": "SPACE_BETWEEN",
+      "alignItems": "CENTER",
+      "flexDirection": "ROW"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".reportListItemFooter": {
+    "flexProps": {
+      "flexGrow": 3,
+      "flexShrink": 3,
+      "alignSelf": "STRETCH",
+      "flexDirection": "ROW",
+      "justifyContent": "SPACE_AROUND",
+      "alignItems": "CENTER"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".dateText": {
+    "textAlignment": "MIDLEFT",
+    "marginLeft": 5,
+    "ellipsizeMode": "NONE",
+    "font": {
+      "name": "",
+      "family": "SFProDisplay",
+      "style": "Medium",
+      "bold": false,
+      "italic": false,
+      "size": 14
+    },
+    "textColor": "rgba( 143, 155, 179, 1 )"
+  },
+  ".cigaretteText": {
+    "textAlignment": "MIDRIGHT",
+    "marginRight": 5,
+    "ellipsizeMode": "NONE",
+    "font": {
+      "name": "",
+      "family": "SFProDisplay",
+      "style": "Medium",
+      "bold": false,
+      "italic": false,
+      "size": 14
+    },
+    "textColor": "rgba( 231, 24, 88, 1 )"
+  },
+  ".reportListBorder": {
+    "height": 1,
+    "flexProps": {
+      "alignSelf": "STRETCH"
+    },
+    "borderWidth": 0.5,
+    "borderColor": "rgba( 143, 155, 179, 1 )",
+    "shadowColor": "rgba( 0, 0, 0, 1 )",
+    "ios": {
+      "shadowOpacity": 0
+    }
+  },
+  ".reportListContainer": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH",
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "marginTop": 5,
+    "marginBottom": 5,
+    "borderWidth": 1,
+    "borderColor": "rgba( 143, 155, 179, 1 )",
+    "borderRadius": 25,
+    "paddingLeft": 5,
+    "paddingRight": 5
+  },
+  ".timeLineIcon": {
+    "flexProps": {
+      "flexGrow": null,
+      "flexShrink": null,
+      "alignSelf": "CENTER"
+    },
+    "height": 50,
+    "image": "images://timeline.png",
+    "imageFillType": "STRETCH",
+    "width": 50
+  },
+  ".mapIcon": {
+    "flexProps": {
+      "flexGrow": null,
+      "flexShrink": null,
+      "alignSelf": "CENTER"
+    },
+    "height": 50,
+    "width": 50,
+    "image": "images://map_search.png",
+    "imageFillType": "STRETCH"
+  },
+  ".mapViewModal": {
+    "flexProps": {
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "backgroundColor": "rgba( 0, 0, 0, 0.57 )"
+  },
+  ".mapViewHeader": {
+    "visible": false
+  },
+  ".timeLineMapWrapper": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER",
+      "alignSelf": "AUTO"
+    },
+    "padding": 10,
+    "borderRadius": null
+  },
+  ".timeLineListWrapper": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "padding": 10,
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".timeLineMap": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH"
+    },
+    "padding": 10,
+    "borderRadius": 25
+  },
+  ".timeLineList": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH"
+    },
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".timeLineListContainer": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "alignSelf": "STRETCH"
+    },
+    "backgroundColor": "rgba( 201, 247, 245, 1 )",
+    "borderRadius": 25,
+    "marginBottom": 10
+  },
+  ".timeLineListItem": {},
+  ".timeLineLbl": {
+    "textAlignment": "MIDCENTER",
+    "font": {
+      "name": "",
+      "family": "SFProDisplay",
+      "style": "Medium",
+      "bold": false,
+      "italic": false,
+      "size": 20
+    },
+    "textColor": "rgba( 231, 24, 88, 1 )",
+    "flexProps": {
+      "flexGrow": null,
+      "flexShrink": null
+    }
+  },
+  ".modalTimeLinePage": {
+    "backgroundColor": "rgba( 0, 0, 0, 0.57 )"
+  },
+  ".timeListItemContainer": {
+    "flexProps": {
+      "flexGrow": 1,
+      "flexShrink": 1,
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER",
+      "alignSelf": "STRETCH"
+    },
+    "backgroundColor": "rgba( 201, 247, 245, 1 )",
+    "marginBottom": 10,
+    "borderRadius": 25
+  },
+  ".timeText": {
+    "flexProps": {
+      "flexGrow": null,
+      "alignSelf": "STRETCH"
+    },
+    "ellipsizeMode": "NONE",
+    "textAlignment": "MIDCENTER",
+    "font": {
+      "name": "",
+      "family": "SFProDisplay",
+      "style": "Medium",
+      "bold": false,
+      "italic": false,
+      "size": 20
+    },
+    "textColor": "rgba( 231, 24, 88, 1 )",
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  ".timeListItemCSS": {
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
   }
 }

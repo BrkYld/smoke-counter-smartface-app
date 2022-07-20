@@ -1,0 +1,62 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .timeListItemCSS",
+			"id": "6751-b216-ec2c-ef83",
+			"props": {
+				"children": [
+					"7ca9-7bf0-1474-5b14"
+				],
+				"name": "timeListItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 26.32,
+				"top": 778.95
+			}
+		},
+		{
+			"className": ".sf-flexLayout .timeListItemContainer",
+			"id": "7ca9-7bf0-1474-5b14",
+			"props": {
+				"children": [
+					"b952-44d7-6501-478f"
+				],
+				"name": "flexLayout1",
+				"parent": "6751-b216-ec2c-ef83"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-label .timeText",
+			"id": "b952-44d7-6501-478f",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "timeText",
+				"parent": "7ca9-7bf0-1474-5b14",
+				"text": "label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"text": "label1",
+				"top": 0
+			}
+		}
+	]
+}
