@@ -26,7 +26,7 @@
 			"props": {
 				"children": [
 					"69d0-5d61-dc3e-744f",
-					"2131-91e9-1545-cea2",
+					"4a71-e928-3487-36c0",
 					"03d5-f510-9299-9b71"
 				],
 				"name": "container",
@@ -89,21 +89,18 @@
 			}
 		},
 		{
-			"className": ".sf-view .reportListBorder",
-			"id": "2131-91e9-1545-cea2",
+			"className": ".sf-flexLayout .reportListBorder",
+			"id": "4a71-e928-3487-36c0",
 			"props": {
 				"children": [],
-				"name": "view1",
+				"name": "flexLayout3",
 				"parent": "2841-3214-8708-439c"
 			},
-			"type": "View",
-			"userProps": {
-				"flexProps": {
-					"positionType": "RELATIVE"
-				},
-				"left": 0,
-				"top": 0
-			}
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
 		},
 		{
 			"className": ".sf-flexLayout .reportListItemFooter",
