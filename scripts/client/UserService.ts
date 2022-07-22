@@ -1,5 +1,5 @@
 import Data from "@smartface/native/global/data";
-import { Fetch } from './Fetch';
+import { Fetch } from './fetch';
 
 const baseUrl = 'http://34.68.206.255:3000/api';
 const endPoints = {
